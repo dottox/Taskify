@@ -1,0 +1,53 @@
+.tasks {
+  width: 45%;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.tasks h2 {
+  color: #333;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-family: 'Nova Mono', monospace;
+}
+
+.tasks--task {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: var(--inputField-color);
+  border-radius: 15px;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.3s all;
+  text-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.tasks--task:hover {
+  outline: solid 1px var(--primary-gradient-color);
+}
+
+.tasks--task--buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+
+.tasks--task--buttons button {
+  aspect-ratio: 1/1;
+  border: none;
+  opacity: 70%;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.tasks--task--buttons button:hover {
+  opacity: 100%;
+}
+
