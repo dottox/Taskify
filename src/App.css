@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
+:root {
+  --primary-gradient-color: #688b78;
+  --secondary-gradient-color: #46785f;
+  --inputField-color: #406c56;
+}
+
+html {
+  min-height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(180deg, var(--primary-gradient-color) 0%, var(--secondary-gradient-color) 100%);
+  
+}
+
+.Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  color: white;
+  font-family: monospace;
+}
+
+.Navbar h1 {
+  font-size: 3rem;
+  font-family: 'Nova Mono', monospace;
+}
+
+.Task-Divider {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 80%;
+}
